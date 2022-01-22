@@ -1,0 +1,42 @@
+.header-wrapper{
+    .pages-nav{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .navs{
+            a{
+                padding-left: 20px;
+            }
+        }
+    }
+}
+#content{
+    .content-wrapper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #e9ecef;
+        a{
+            color: white;
+        }
+    }
+}
+#pages-cards{
+    .cards-wrapper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1,h5,p{
+        color: white;
+    }
+}
+.foot-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}

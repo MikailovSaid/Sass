@@ -1,0 +1,44 @@
+.header-wrapper .pages-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-wrapper .pages-nav .navs a {
+  padding-left: 20px;
+}
+
+#content .content-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #e9ecef;
+}
+
+#content .content-wrapper a {
+  color: white;
+}
+
+#pages-cards .cards-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info h1, .info h5, .info p {
+  color: white;
+}
+
+.foot-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
