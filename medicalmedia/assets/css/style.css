@@ -1,0 +1,448 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.head {
+  background-color: #047eb3;
+  height: 150px;
+}
+
+.head .media-links {
+  padding-top: 10px;
+}
+
+.head .media-links a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Helvetica";
+}
+
+.head hr {
+  color: white;
+}
+
+.head .login-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.head .search-login .search {
+  width: 200px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.head .search-login .search input {
+  border: none;
+  border-radius: 10px;
+}
+
+.head .search-login .search button {
+  padding-top: 4px;
+  padding-left: 4px;
+  color: #cecece;
+  border: none;
+}
+
+.head .search-login button {
+  width: 70px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.head .header-menu .menu-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-media-links {
+  list-style: none;
+  background: #047eb3;
+  position: fixed;
+  top: 360px;
+  right: 0;
+  z-index: 2;
+  border-radius: 12px;
+  width: 52px;
+  padding: 8px 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.social-media-links li {
+  display: list-item;
+  text-align: center;
+  padding: 10px;
+}
+
+.social-media-links li a {
+  color: white;
+}
+
+#intro .header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+#intro .header_wrapper .quick-links p {
+  color: #00415c;
+  margin-right: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+
+#intro .header_wrapper .quick-links .links-wraps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#intro .header_wrapper .quick-links .links-wraps .links-wrap {
+  background: rgba(4, 126, 179, 0.16);
+  border-radius: 12px;
+  margin-left: 20px;
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#intro .header_wrapper .quick-links .links-wraps .links-wrap a {
+  color: #047eb3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#intro .header_wrapper .weather-card {
+  background: #047eb3;
+  border-radius: 12px;
+  width: 185px;
+  color: white;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+#intro .news-list-wrapper .latest-news-list {
+  border-radius: 12px;
+}
+
+#intro .news-list-wrapper .latest-news-list img {
+  position: relative;
+  border-radius: 12px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .first-title {
+  position: absolute;
+  top: 520px;
+  left: 175px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .first-title p {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .first-news-link {
+  position: absolute;
+  top: 570px;
+  left: 530px;
+  background-color: #047eb3;
+  border-radius: 12px;
+  width: 134px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 500px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .second-title {
+  position: absolute;
+  top: 270px;
+  left: 780px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .second-title p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .second-news-link {
+  position: absolute;
+  top: 330px;
+  left: 900px;
+  background-color: #047eb3;
+  border-radius: 12px;
+  width: 134px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 500px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .third-title {
+  position: absolute;
+  top: 485px;
+  left: 780px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .third-title p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#intro .news-list-wrapper .latest-news-list .news-heading .third-news-link {
+  position: absolute;
+  top: 550px;
+  left: 900px;
+  background-color: #047eb3;
+  border-radius: 12px;
+  width: 134px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 500px;
+}
+
+#intro .news-list-wrapper .latest-news-list .scroll h2 {
+  color: #047eb3;
+  font-size: 20px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  top: 5px;
+}
+
+#intro .news-list-wrapper .latest-news-list .scroll ul {
+  font-size: 12px;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 340px;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro .news-list-wrapper .latest-news-list .call-me {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-news {
+  margin-top: 100px;
+}
+
+#top-news .title {
+  font-weight: 500;
+  font-size: 28px;
+  color: #00415c;
+}
+
+#top-news .tops-wrapper {
+  margin-top: 20px;
+}
+
+#top-news .tops-wrapper .card {
+  padding-left: 15px;
+  width: 14rem;
+  height: 150px;
+}
+
+#top-news .tops-wrapper .card-body .links {
+  color: #00415c;
+  font-weight: 500;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#live-wrapper .live-broadcast {
+  margin-top: 100px;
+}
+
+#live-wrapper .live-broadcast p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #00415c;
+  margin-bottom: 24px;
+}
+
+#live-wrapper .live-broadcast button {
+  background: #fff;
+  border: 1.2px solid #047eb3;
+  border-radius: 8px;
+  color: #047eb3;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 24px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+}
+
+#live-wrapper .live-broadcast button:hover {
+  background-color: #047eb3;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#archives .archives-title .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00415c;
+  margin-top: 34px;
+}
+
+#archives .archives-title .title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#archives .categories .categories-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#archives .categories .btn {
+  width: 180px;
+  margin: 0 16px 32px;
+  min-height: 62px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #047eb3;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  padding: 10px;
+}
+
+footer {
+  background: #047eb3;
+  padding: 60px 0 120px;
+  margin-top: 100px;
+}
+
+footer #footer .logo-wrapper p {
+  color: white;
+  padding-top: 20px;
+}
+
+footer #footer .pages h4 {
+  color: white;
+}
+
+footer #footer .pages a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+footer #footer .info h4 {
+  color: white;
+}
+
+footer #footer .info a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+footer #footer .contact h4 {
+  color: white;
+}
+
+footer #footer .contact a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+footer #footer .email h4 {
+  color: white;
+}
+
+footer #footer .email input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  height: 50px;
+  width: 250px;
+}
+
+footer #footer .email button {
+  height: 50px;
+  width: 50px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+}
+
+footer #footer .social_links {
+  margin-left: 310px;
+  margin-top: 100px;
+}
+
+footer #footer .social_links a {
+  color: white;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
